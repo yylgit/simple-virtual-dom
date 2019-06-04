@@ -44,6 +44,7 @@
     var newTree = renderTree()
     var patches = diff(tree, newTree)
     console.log(patches)
+    debugger
     patch(root, patches)
 
     tree = newTree
